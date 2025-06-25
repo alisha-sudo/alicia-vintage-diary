@@ -1151,6 +1151,17 @@ footer {
   justify-content: center;
 }
 
+#page9 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a0a;
+  color: #fff;
+  scroll-snap-align: start;
+}
+
 .page9-content {
   display: flex;
   width: 80%;
