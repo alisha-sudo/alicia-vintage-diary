@@ -1144,5 +1144,34 @@ footer {
     width: .5vw;
 }
 
+.page {
+  height: 100vh; /* Full screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page9-content {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
