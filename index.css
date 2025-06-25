@@ -1190,8 +1190,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0a0a0a;
-  color: #fff;
+  background-color: #f5f0e6;
   scroll-snap-align: start;
 }
 
