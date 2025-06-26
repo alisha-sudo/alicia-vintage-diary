@@ -1191,3 +1191,18 @@ footer {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.03);
 }
+
+.page9-title {
+  width: 90%;
+  max-width: 1200px;
+  margin: 80px auto 30px;
+  text-align: center;
+}
+
+.page9-title h1 {
+  font-size: 7vw;
+  font-family: 'Canopee', sans-serif;
+  color: #1D1D1B;
+  letter-spacing: -0.08em;
+  line-height: 1;
+}
