@@ -1190,7 +1190,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5f0e6;
+  background-color: #f5f0e6; 
   scroll-snap-align: start;
 }
 
@@ -1200,7 +1200,7 @@ footer {
   width: 90%;
   max-width: 1400px;
   height: 80vh;
-  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 .left, .right {
@@ -1209,13 +1209,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .left img {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255,255,255,0.1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 .right {
@@ -1239,6 +1241,3 @@ footer {
   line-height: 1.7;
   font-family: 'Georgia', serif;
 }
-
-
-
