@@ -1182,10 +1182,10 @@ footer {
 }
 
 .text-col p {
-  font-size: 2.3vw;
+  font-size: 14px;
   font-weight: 100;
   line-height: 1.8;
-  font-family: 'Editorial';
+  font-family: 'Editorial', serif;
   color: #2f2f2f;
   padding: 20px;
   background-color:  #c4bcb3;
