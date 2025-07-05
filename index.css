@@ -1159,7 +1159,40 @@ footer {
   gap: 60px;
 }
 
-/* Title */
+.memory-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 30px;
+}
+
+.memory-col {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-col img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.text-col p {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.8;
+  font-family: 'Editorial', serif;
+  color: #2f2f2f;
+  padding: 20px;
+  background-color: #c4bcb3;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
 .page9-title {
   width: 100%;
   display: flex;
@@ -1177,81 +1210,3 @@ footer {
   line-height: 0.9;
   letter-spacing: -0.5vw;
 }
-
-/* New content block */
-.page9-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  padding: 0 10vw 60px;
-  text-align: center;
-}
-
-.summary-text {
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 1.7;
-  font-family: 'Editorial', serif;
-  color: #2f2f2f;
-  background-color: #c4bcb3;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.03);
-  max-width: 700px;
-}
-
-/* Notion cover image */
-.notion-cover img {
-  width: 85%;
-  max-width: 650px;
-  border-radius: 18px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-  transition: all 0.35s ease;
-}
-
-.notion-cover img:hover {
-  transform: scale(1.03);
-}
-
-/* Notion blog link button */
-.notion-link-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.notion-icon-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  background-color: #111;
-  color: #fff;
-  padding: 10px 18px;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
-}
-
-.notion-icon-link i {
-  font-size: 1.3rem;
-}
-
-.notion-icon-link:hover {
-  background-color: #333;
-  transform: scale(1.05);
-  color: #fff;
-}
-
-/* Responsive adjustment for small screens */
-@media (max-width: 600px) {
-  .notion-icon-link {
-    font-size: 0.85rem;
-    padding: 8px 14px;
-  }
-
-  .notion-icon-link i {
-    font-size: 1.1rem;
-  }
-    }
