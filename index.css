@@ -1246,3 +1246,43 @@ footer {
     font-size: 1.1rem;
   }
     }
+
+.page9-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 0 10vw 60px;
+  text-align: center;
+}
+
+.summary-text {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.7;
+  font-family: 'Editorial', serif;
+  color: #2f2f2f;
+  background-color: #c4bcb3;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+  max-width: 700px;
+}
+
+.notion-cover img {
+  width: 85%;
+  max-width: 650px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  transition: all 0.35s ease;
+}
+
+.notion-cover img:hover {
+  transform: scale(1.03);
+}
+
+.notion-link-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+    }
